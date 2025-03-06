@@ -3,6 +3,6 @@
 version: 1.0.0
 description: Embedded Template Library (ETL CPP) on ESP32
 license: MIT
-repository: https://github.com/marcel-cd/etlcpp.esp
+repository: https://github.com/tinybus/etlcpp
 dependencies:
   idf: ">=5.0"

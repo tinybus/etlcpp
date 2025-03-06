@@ -11,7 +11,7 @@ and more.  This document outlines the guidelines we ask contributors to follow.
 2. **Clone your fork:** Clone your forked repository to your local machine:
 
 ```bash
-   git clone https://github.com/marcel-cd/etlcpp.git
+   git clone https://github.com/tinybus/etlcpp.git
 ```
 
 3.  **Create a branch:** Create a new branch for your contribution.  Use a descriptive name that reflects the purpose of your changes:
@@ -84,7 +84,7 @@ Must be one of the following:
 
 ## License
 
-By contributing to EtlCpp, you agree that your contributions will be licensed under the [LICENSE](https://github.com/marcel-cd/etlcpp/blob/master/LICENSE)
+By contributing to EtlCpp, you agree that your contributions will be licensed under the [LICENSE](https://github.com/tinybus/etlcpp/blob/master/LICENSE)
 
 ## Questions?
 
