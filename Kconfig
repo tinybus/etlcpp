@@ -1,0 +1,4 @@
+config ETLCPP
+    bool "EtlCpp Library"
+    help
+        This option enables the EtlCpp Library
