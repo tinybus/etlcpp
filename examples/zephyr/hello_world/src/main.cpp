@@ -1,18 +1,18 @@
 // SPDX-FileCopyrightText: Copyright 2025 Clever Design (Switzerland) GmbH
 // SPDX-License-Identifier: Apache-2.0
 
-#include <esp_log.h>
-#include <freertos/FreeRTOS.h>
-#include <freertos/task.h>
-
+#include <zephyr/kernel.h>
+#include <zephyr/logging/log.h>
 #include <etl/string.h>
 
-const char *TAG = "main";
+#define LOG_MODULE_NAME main
+LOG_MODULE_REGISTER(main);
 
-extern "C" void app_main()
+extern "C" int main()
 {
     etl::string<20> text1 = "Hello";
     etl::string<20> text2 = " World!!!";
     text1 += text2;
-    ESP_LOGI(TAG, "%s (len: %zu, capacity: %zu)", text1.c_str(), text1.size(), text1.capacity());
+    LOG_INF("%s (len: %zu, capacity: %zu)", text1.c_str(), text1.size(), text1.capacity());
+    return 0;
 }

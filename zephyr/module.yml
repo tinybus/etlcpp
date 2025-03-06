@@ -1,0 +1,4 @@
+name: etlcpp
+build:
+  cmake: ./
+  kconfig: ./Kconfig
